@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@bootstrap3.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dmiit3iy.controllers.LetterController">
+   <children>
+      <TextField fx:id="titleTextField" layoutX="21.0" layoutY="39.0" prefHeight="26.0" prefWidth="354.0" />
+      <TextArea fx:id="letterTextArea" layoutX="21.0" layoutY="100.0" prefHeight="200.0" prefWidth="354.0" />
+      <Label layoutX="21.0" layoutY="14.0" prefHeight="18.0" prefWidth="149.0" text="The title of the letter" />
+      <Label layoutX="20.0" layoutY="72.0" prefHeight="18.0" prefWidth="150.0" text="The text of the letter" />
+      <Button layoutX="21.0" layoutY="308.0" styleClass="primary" mnemonicParsing="false" onAction="#sendButton" text="Отправить" />
+   </children>
+</AnchorPane>
